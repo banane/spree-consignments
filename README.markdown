@@ -8,10 +8,10 @@ Installation
 
 1. Install Spree (Requires 0.11.0 or greater).
 
-2. Install this extension
+2. Install this gem
 
-      script/extension install git://github.com/pzupan/spree-consignments.git
-
+	bundle exec rake railties:install:migrations
+	
 3. Run pending migrations
 
       rake db:migrate
